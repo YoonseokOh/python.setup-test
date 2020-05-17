@@ -26,5 +26,6 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 ```
 
-## set python venv
+## set python venv and install packages
 python -m venv venv
+pip install -r requirements.txt
