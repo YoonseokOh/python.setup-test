@@ -27,8 +27,14 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi
 ```
 
 ## set python venv and install packages
+```
 python -m venv venv
 pip install -r requirements.txt
+```
 
 ## start project
+It is performed at the init project
+```
 django-admin startproject django_test
+python manage.py startapp app
+```
